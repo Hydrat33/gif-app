@@ -1,0 +1,27 @@
+* {
+  font-family: Helvetica,Arial, sans-serif;
+}
+
+body{
+  padding: 60px;
+  background: rgb(219, 212, 212);
+}
+
+.imgCont{
+
+  border: 1px solid black;
+  width: fit-content;
+  text-align: center;
+}
+
+.imgCont img{
+
+  max-width: 30rem;
+}
+
+.imgsGrid{
+
+  display: flex;
+  flex-flow: row wrap;
+  
+}
